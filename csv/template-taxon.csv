@@ -1,0 +1,6 @@
+ID,Label,Type,Parent Class,has rank
+ID,A rdfs:label,TYPE,SC %,A http://purl.obolibrary.org/obo/ncbitaxon#has_rank
+obo:NCBITaxon_408261,Gryonoides,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
+obo:NCBITaxon_408262,Gryonoides glabriceps,class,obo:NCBITaxon_408261,http://purl.obolibrary.org/obo/NCBITaxon_species
+https://zoobank.org/NomenclaturalActs/dcfaff52-a28e-4a40-8d03-a19845f80bde,Gryonoides brasiliensis,class,obo:NCBITaxon_408261,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_599921,Chalepogenus,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
