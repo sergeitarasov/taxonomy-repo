@@ -11,7 +11,7 @@ $(OUTPUT): $(TEMPLATE)
 	@mkdir -p $(OWL_DIR)
 	robot template --template $< \
   --prefix "ex: http://example.com/" \
-  --ontology-iri "https://github.com/ontodev/robot/examples/template.owl" \
+  --ontology-iri "https://github.com/sergeitarasov/taxonomy-repo/" \
   --output $@
 
 clean:
