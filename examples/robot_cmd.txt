@@ -9,3 +9,6 @@ robot template --template taxonID.csv \
   --prefix "oboInOwl: http://www.geneontology.org/formats/oboInOwl" \
   --ontology-iri "https://github.com/ontodev/robot/examples/template.owl" \
   --output results/taxa.owl
+
+
+robot
