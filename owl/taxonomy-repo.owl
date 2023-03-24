@@ -50,6 +50,14 @@
     <owl:Class rdf:about="https://www.gbif.org/species/10360397">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grebennikovius</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- https://www.gbif.org/species/1086666 -->
+
+    <owl:Class rdf:about="https://www.gbif.org/species/1086666">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nesovinsonia</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
