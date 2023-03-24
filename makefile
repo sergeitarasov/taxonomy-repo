@@ -4,6 +4,7 @@ OWL_DIR := owl
 TEMPLATE := $(CSV_DIR)/template-taxon.csv
 OUTPUT := $(OWL_DIR)/taxonomy-repo.owl
 GOOGLE_DRIVE_LINK := "https://docs.google.com/spreadsheets/d/1PB_vgPJzh6Q0oHUCKEHox0AtC6xIqNkrXBf1o0ciNNM/export?format=csv"
+# gdown "https://docs.google.com/spreadsheets/d/1PB_vgPJzh6Q0oHUCKEHox0AtC6xIqNkrXBf1o0ciNNM/export?format=csv" -O template-taxon.csv
 
 # Phony targets
 .PHONY: all clean download_csv
@@ -20,7 +21,8 @@ download_csv:
 $(OUTPUT): $(TEMPLATE)
 	@mkdir -p $(OWL_DIR)
 	robot template --template $< \
-  --prefix "ex: http://example.com/" \
+  --prefix "zoo: http://zoobank.org/" \
+  --prefix "gbif: https://www.gbif.org/species/" \
   --ontology-iri "https://github.com/sergeitarasov/taxonomy-repo/" \
   --output $@
 

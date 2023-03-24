@@ -1,8 +1,5 @@
-ID,Label,Type,Parent Class,has rank
-ID,A rdfs:label,TYPE,SC %,A http://purl.obolibrary.org/obo/ncbitaxon#has_rank
-obo:NCBITaxon_408261,Gryonoides,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
-obo:NCBITaxon_408262,Gryonoides glabriceps,class,obo:NCBITaxon_408261,http://purl.obolibrary.org/obo/NCBITaxon_species
-https://zoobank.org/NomenclaturalActs/dcfaff52-a28e-4a40-8d03-a19845f80bde,Gryonoides brasiliensis,class,obo:NCBITaxon_408261,http://purl.obolibrary.org/obo/NCBITaxon_species
-obo:NCBITaxon_599921,Chalepogenus,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
-https://www.catalogueoflife.org/data/taxon/4QYW,Grebennikovius,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
-https://www.catalogueoflife.org/data/taxon/3HBWP,Grebennikovius basilewskyi,class,https://www.catalogueoflife.org/data/taxon/4QYW,http://purl.obolibrary.org/obo/NCBITaxon_species
+ID,Label,Type
+ID,A rdfs:label,TYPE
+zoo:CA113116-C954-450D-8576-5D92D379C637,Parachorius schuelkei,class
+https://www.gbif.org/species/10360397,Grebennikovius,class
+gbif:10023107,Grebennikovius basilewskyi,class

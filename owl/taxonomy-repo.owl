@@ -5,26 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://github.com/sergeitarasov/taxonomy-repo/"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank"/>
     
 
 
@@ -39,59 +21,26 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_408261 -->
+    <!-- http://zoobank.org/CA113116-C954-450D-8576-5D92D379C637 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_408261">
-        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_genus</ncbitaxon:has_rank>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gryonoides</rdfs:label>
+    <owl:Class rdf:about="http://zoobank.org/CA113116-C954-450D-8576-5D92D379C637">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parachorius schuelkei</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_408262 -->
+    <!-- https://www.gbif.org/species/10023107 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_408262">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_408261"/>
-        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gryonoides glabriceps</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_599921 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_599921">
-        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_genus</ncbitaxon:has_rank>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chalepogenus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://www.catalogueoflife.org/data/taxon/3HBWP -->
-
-    <owl:Class rdf:about="https://www.catalogueoflife.org/data/taxon/3HBWP">
-        <rdfs:subClassOf rdf:resource="https://www.catalogueoflife.org/data/taxon/4QYW"/>
-        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
+    <owl:Class rdf:about="https://www.gbif.org/species/10023107">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grebennikovius basilewskyi</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.catalogueoflife.org/data/taxon/4QYW -->
+    <!-- https://www.gbif.org/species/10360397 -->
 
-    <owl:Class rdf:about="https://www.catalogueoflife.org/data/taxon/4QYW">
-        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_genus</ncbitaxon:has_rank>
+    <owl:Class rdf:about="https://www.gbif.org/species/10360397">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grebennikovius</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://zoobank.org/NomenclaturalActs/dcfaff52-a28e-4a40-8d03-a19845f80bde -->
-
-    <owl:Class rdf:about="https://zoobank.org/NomenclaturalActs/dcfaff52-a28e-4a40-8d03-a19845f80bde">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_408261"/>
-        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gryonoides brasiliensis</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
