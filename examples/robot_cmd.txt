@@ -11,4 +11,4 @@ robot template --template taxonID.csv \
   --output results/taxa.owl
 
 
-robot
+robot2
