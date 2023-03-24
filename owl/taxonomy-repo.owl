@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/ontodev/robot/examples/template.owl#"
-     xml:base="https://github.com/ontodev/robot/examples/template.owl"
+<rdf:RDF xmlns="https://github.com/sergeitarasov/taxonomy-repo/"
+     xml:base="https://github.com/sergeitarasov/taxonomy-repo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
-    <owl:Ontology rdf:about="https://github.com/ontodev/robot/examples/template.owl"/>
+    <owl:Ontology rdf:about="https://github.com/sergeitarasov/taxonomy-repo/"/>
     
 
 
@@ -63,6 +63,25 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_599921">
         <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_genus</ncbitaxon:has_rank>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chalepogenus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.catalogueoflife.org/data/taxon/3HBWP -->
+
+    <owl:Class rdf:about="https://www.catalogueoflife.org/data/taxon/3HBWP">
+        <rdfs:subClassOf rdf:resource="https://www.catalogueoflife.org/data/taxon/4QYW"/>
+        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grebennikovius basilewskyi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.catalogueoflife.org/data/taxon/4QYW -->
+
+    <owl:Class rdf:about="https://www.catalogueoflife.org/data/taxon/4QYW">
+        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_genus</ncbitaxon:has_rank>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grebennikovius</rdfs:label>
     </owl:Class>
     
 

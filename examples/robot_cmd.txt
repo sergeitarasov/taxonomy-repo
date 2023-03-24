@@ -1,0 +1,11 @@
+robot template --template template-taxon.csv \
+  --prefix "ex: http://example.com/" \
+  --ontology-iri "https://github.com/ontodev/robot/examples/template.owl" \
+  --output results/template.owl
+
+
+robot template --template taxonID.csv \
+  --prefix "ex: http://example.com/" \
+  --prefix "oboInOwl: http://www.geneontology.org/formats/oboInOwl" \
+  --ontology-iri "https://github.com/ontodev/robot/examples/template.owl" \
+  --output results/taxa.owl
