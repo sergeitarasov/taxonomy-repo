@@ -21,6 +21,14 @@
     
 
 
+    <!-- http://zoobank.org/A116D60D-8D17-434E-8AAD-84A0C331C23E -->
+
+    <owl:Class rdf:about="http://zoobank.org/A116D60D-8D17-434E-8AAD-84A0C331C23E">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parachorius bolavensis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://zoobank.org/CA113116-C954-450D-8576-5D92D379C637 -->
 
     <owl:Class rdf:about="http://zoobank.org/CA113116-C954-450D-8576-5D92D379C637">
