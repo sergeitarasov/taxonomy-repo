@@ -1,3 +1,7 @@
+# To RUN execute
+# make 
+# make git-push # the latter pushe to github
+
 # Variables
 CSV_DIR := csv
 OWL_DIR := owl
