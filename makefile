@@ -33,5 +33,5 @@ clean:
 # Git push rule
 git-push:
 	git add .
-	git commit -m "from Makefile"
+	git commit -m "from Makefile 2"
 	git push
